@@ -9,7 +9,7 @@ Create a `Dockerfile` for this simple go web application.
 Create all of the neccessry objects in order to run the application in a working kubernetes cluster.
 
 ### Task 3 - Create a simple CI/CD script
-Edit `.github/workflows/pipeline.yaml` with the following steps:
+Edit `.github/actions/pipeline/entrypoint.sh` with the following steps:
 * build docker image
 * tag the new image as `<branch_name>-<sha>`
 * optional - test the image before pushing (only `/posts` on GET)
