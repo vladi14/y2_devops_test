@@ -15,4 +15,6 @@ Edit `.github/workflows/pipeline.yaml` with the following steps:
 * optional - test the image before pushing (only `/posts` on GET)
 * push
 
+The script will run after each commit 
+
 ### Task 4 - Answering questions
