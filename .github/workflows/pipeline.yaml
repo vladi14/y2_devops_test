@@ -1,0 +1,15 @@
+on:
+  push:
+    branches:
+    - master
+
+name: pipline
+
+jobs:
+  changedFiles:
+    name: workloads linter
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: pipeline
+      uses: ./.github/actions/pipeline
