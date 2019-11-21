@@ -15,6 +15,9 @@ Edit `.github/actions/pipeline/entrypoint.sh` with the following steps:
 * optional - test the image before pushing (only `/posts` on GET)
 * push
 
-The script will run after each commit 
+TIPs:
+* the script will run after each commit
+* docker must be installed
+* you can check it in `Actions` tab
 
 ### Task 4 - Answering questions

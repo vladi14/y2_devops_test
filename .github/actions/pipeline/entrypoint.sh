@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo ${GITHUB_REF##*/}
+echo "Hello from brnach: ${GITHUB_REF##*/}"

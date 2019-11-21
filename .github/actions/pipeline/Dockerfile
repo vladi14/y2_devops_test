@@ -1,4 +1,4 @@
-FROM dtzar/helm-kubectl
+FROM ubuntu
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
