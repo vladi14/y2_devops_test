@@ -19,5 +19,3 @@ TIPs:
 * the script will run after each commit
 * docker must be installed
 * you can check it in `Actions` tab
-
-### Task 4 - Answering questions
