@@ -18,5 +18,5 @@ Edit `.github/actions/pipeline/entrypoint.sh` with the following steps:
 
 TIPs:
 * the script will run after each commit
-* docker must be installed
+* build is running on a fresh ubuntu image so docker must be installed
 * you can check it in `Actions` tab
