@@ -14,6 +14,7 @@ Edit `.github/actions/pipeline/entrypoint.sh` with the following steps:
 * tag the new image as `<branch_name>-<sha>`
 * optional - test the image before pushing (only `/posts` on GET)
 * push
+* deploy
 
 TIPs:
 * the script will run after each commit
