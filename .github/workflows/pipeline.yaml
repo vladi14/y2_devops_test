@@ -4,7 +4,7 @@ name: pipeline
 
 jobs:
   changedFiles:
-    name: workloads linter
+    name: y2_devops_test
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
