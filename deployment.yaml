@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: y2_devops_test
+spec:
+  selector:
+    matchLabels:
+      app: y2_devops_test
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: y2_devops_test
+    spec:
+      containers:
+      - name: y2_devops_test
+        image: my-image:latest
+        ports:
+        - containerPort: 3555
