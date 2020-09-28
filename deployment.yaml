@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: y2_devops_test
-        image: my-image:latest
+        image: my-image:Vladimir_Pikovski-sha
         ports:
         - containerPort: 3555
